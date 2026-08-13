@@ -1,0 +1,21 @@
+{
+  "name": "construction-server",
+  "version": "1.0.0",
+  "description": "工程项目施工进度管理系统 - 后端服务",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "node src/app.js",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.23.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
